@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.tab-header {
+  width: 720px;
+  /* margin: 15% auto; */
+  display: flex;
+  text-align: center;
+  position: relative;
+}
+.tab-item {
+  color: #c23564;
+  font-size: 24px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.tab-item.active {
+  opacity: 1;
+}
+.line {
+  position: absolute;
+  height: 5px;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  background-color: #c23564;
+  border-radius: 0;
+}

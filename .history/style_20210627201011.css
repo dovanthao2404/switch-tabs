@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.tab-header {
+  width: 720px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  position: relative;
+}
+
+.line {
+  position: relative;
+}
